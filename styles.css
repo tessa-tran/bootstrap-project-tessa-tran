@@ -1,0 +1,61 @@
+body{
+    margin: 10px;
+}
+.header{  
+    min-height: 15vh; 
+    background-image: url("flowers.jpg");  
+}
+
+h1{
+    background-color:  rgb(207, 171, 196);  
+    color: white;
+}
+
+.options{
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.btn-lg, .btn-primary{
+    background-color: rgb(118, 57, 101);
+    border-color: rgb(118, 57, 101);
+}
+
+.btn:hover{
+    background-color:  rgb(187, 118, 182);
+    border-color: rgb(187, 118, 182);
+}
+
+.list-group-item{ 
+    background-color:rgb(247, 229, 247);
+}
+
+p{
+    line-height: 15px;
+}
+
+#from-name, #to-name{
+    line-height-step: .9em;
+}
+
+
+
+
+@media (max-width: 576px) {
+    .options, .emails{
+        display: none;
+    }
+   
+   
+}
+
+@media (min-width: 576px) {
+    .dropdown, .navbar {
+        display: none;
+    }
+}
+   
+
