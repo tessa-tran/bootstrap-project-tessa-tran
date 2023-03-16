@@ -1,9 +1,18 @@
 body{
-    margin: 10px;
+    margin: 5px;
 }
+
 .header{  
-    min-height: 15vh; 
+    min-height: 12vh; 
     background-image: url("flowers.jpg");  
+}
+
+
+h4{
+    color: rgb(75, 2, 71);
+    font-style: fantasy;
+    font-size: 10px;
+    font-weight: bold;
 }
 
 h1{
@@ -11,20 +20,35 @@ h1{
     color: white;
 }
 
+navbar-container-fluid{
+    background-color: rgb(118, 57, 101);;
+}
 .options{
-    
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
+.options-container{
+    display: flex;
+    flex-direction: column;
+    column-gap: 50px;
+    border: 3px double rgb(109, 49, 114);
+    border-radius: 15px;
+}
 
 .btn-lg, .btn-primary{
     background-color: rgb(118, 57, 101);
     border-color: rgb(118, 57, 101);
+    size: 10px;
 }
 
-.btn:hover{
+.btn-lg:hover{
+    background-color:  rgb(187, 118, 182);
+    border-color: rgb(187, 118, 182);
+}
+
+.btn-primary:hover{
     background-color:  rgb(187, 118, 182);
     border-color: rgb(187, 118, 182);
 }
@@ -41,6 +65,9 @@ p{
     line-height-step: .9em;
 }
 
+.fa-circle-left, .fa-circle-right{
+    color: rgb(118, 57, 101);
+}
 
 
 
