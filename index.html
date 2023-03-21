@@ -25,50 +25,12 @@
               <div class="header-container d-flex justify-content-center align-items-center">
               <h1>Hello Beautiful</h1>
             </div>
-                   <!-- Use single button from getbootstrap dropdowns page:https://getbootstrap.com/docs/5.3/components/dropdowns/ -->
-                   <nav class="navbar navbar-expand-lg bg-body-tertiary">
-                    <div class="navbar-container-fluid">
-                      <a class="navbar-brand" href="#">Navbar</a>
-                      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                        <span class="navbar-toggler-icon"></span>
-                      </button>
-                      <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                          <li class="nav-item">
-                            <a class="nav-link active" aria-current="page" href="#">Home</a>
-                          </li>
-                          <li class="nav-item">
-                            <a class="nav-link" href="#">Link</a>
-                          </li>
-                          <li class="nav-item dropdown">
-                            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                              Dropdown
-                            </a>
-                            <ul class="dropdown-menu">
-                              <li><a class="dropdown-item" href="#">Action</a></li>
-                              <li><a class="dropdown-item" href="#">Another action</a></li>
-                              <li><hr class="dropdown-divider"></li>
-                              <li><a class="dropdown-item" href="#">Something else here</a></li>
-                            </ul>
-                          </li>
-                          <li class="nav-item">
-                            <a class="nav-link disabled">Disabled</a>
-                          </li>
-                        </ul>
-                        <form class="d-flex" role="search">
-                          <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-                          <button class="btn btn-outline-success" type="submit">Search</button>
-                        </form>
-                      </div>
-                    </div>
-                  </nav> 
             </div>
-            
           
             <div class="row w-100"> 
             
                 <!-- Column 1: Options -->
-                <div class="col-sm-12 col-md-5 col-lg-2 options">
+                <div class="col-sm-12 col-md-4 col-lg-2 options">
                   <div class="row">
                     <div class="options-container">
                      <!-- Compose Button with Flower / Use flower icon & large button from getbootstrap:https://getbootstrap.com/docs/5.3/components/buttons/-->
@@ -105,7 +67,7 @@
              
 
                  <!-- Column 2: Emails -->
-                <div class="col-sm-12 col-md-7 col-lg-5 emails">
+                <div class="col-sm-12 col-md-8 col-lg-5 emails">
                   
                     <!-- Use button component from getbootstrap navbar page: https://getbootstrap.com/docs/5.3/components/badge/ -->
                     <form class="d-flex" role="search">
@@ -167,73 +129,53 @@
                     </div>
                     </div>
                   
-                  
-
+                    
                   <!-- Column 3: Email Preview -->
                 <div class="col-sm-12 col-md-12 col-lg-5 email-preview">
                   <div class="email-header">
+
                   <!-- Arrows from Font Awesome -->
-                  <i class="fa-solid fa-circle-left fa-lg fa-beat-fade" ></i>
-                  <i class="fa-solid fa-circle-right fa-lg fa-beat-fade"></i>
+                  <br>
+                  <i class="fa-solid fa-circle-left fa-lg fa-beat-fade fa-pull-left" ></i>
+                  <i class="fa-solid fa-circle-right fa-lg fa-beat-fade fa-pull-right"></i>
+
                 <!-- Used button component from getbootstrap https://getbootstrap.com/docs/5.3/components/buttons/#examples -->
-                <div class="d-grid gap-4 d-flex justify-content-end">
+                <div class="d-grid gap-4 d-flex justify-content-center">
                   <button class="btn btn-primary btn-md" type="button">Reply</button>
                   <button class="btn btn-primary btn-md" type="button">Reply All</button>
                   <button class="btn btn-primary btn-md" type="button">Foward</button>
                   <button class="btn btn-primary btn-md" type="button">...</button>
                 </div>
+                <br>
                   <p id="from-name">Sender: Beauty List Server</p>
                   <p id="to-name">To: Tessa Tran</p>
                 </div>
-                <h3>Subject: Provide Your Information to Claim the Prize!</h3>
+                <h3>Subject: Send Your Information to Claim the Prize!</h3>
                     <!-- Use custom content from getbootstrap list group page:https://getbootstrap.com/docs/5.3/forms/layout/ -->
-                    <form class="row g-3">
-                        <div class="col-md-6">
+                    <form class="row g-3">  
+                        <div class="col-6">
                           <label for="inputLastName" class="form-label">Last Name</label>
                           <input type="email" class="form-control" id="inputLastName">
                         </div>
-                        <div class="col-md-6">
+                        <div class="col-6">
                           <label for="inputFirstName" class="form-label">First Name</label>
                           <input type="password" class="form-control" id="inputFirstName">
                         </div>
-                        <div class="col-6">
-                          <label for="inputAddress" class="form-label">Address</label>
-                          <input type="text" class="form-control" id="inputAddress" placeholder="1234 Main St">
-                        </div>
-                        <div class="col-6">
-                          <label for="inputAddress2" class="form-label">Address 2</label>
-                          <input type="text" class="form-control" id="inputAddress2" placeholder="Apartment, studio, or floor">
-                        </div>
-                        <div class="col-md-6">
-                          <label for="inputCity" class="form-label">City</label>
-                          <input type="text" class="form-control" id="inputCity">
-                        </div>
-                        <div class="col-md-3">
-                          <label for="inputState" class="form-label">State</label>
-                          <select id="inputState" class="form-select">
-                            <option selected>Choose...</option>
-                            <option>...</option>
-                          </select>
-                        </div>
-                        <div class="col-md-2">
-                          <label for="inputZip" class="form-label">Zip</label>
-                          <input type="text" class="form-control" id="inputZip">
-                        </div>
                         <div class="col-12">
-                        </div>
-                        <div class="col-12">
-                          <button type="submit" class="btn btn-outline-success">Submit</button>
+                          <label for="inputEmailAddress" class="form-label">Email Address</label>
+                          <input type="text" class="form-control" id="inputEmailAddress" placeholder="123@beauty.com">
                         </div>
                       </form>
-                    <!-- Use text area from getbootstrap floating labels page:https://getbootstrap.com/docs/5.3/forms/floating-labels/#textareas 
+                      <br>
+                      <br>                 
+                    <!-- Use text area from getbootstrap floating labels page:https://getbootstrap.com/docs/5.3/forms/floating-labels/#textareas-->
                       <div class="form-floating">
-                        <textarea class="form-control" placeholder="Reply" id="floatingTextarea2" style="min-height: 100px"></textarea>
+                        <textarea class="form-control" placeholder="Reply" id="floatingTextarea2" style="min-height: 150px"></textarea>
                         <label for="floatingTextarea2">Reply</label>
-                      </div>-->
-
-                    
-                
-                      
+                        <div class="col-12">
+                          <button type="submit" class="btn btn-sm btn-outline-success">Submit</button>
+                        </div>
+                      </div>
                     </div>
               </div>
       

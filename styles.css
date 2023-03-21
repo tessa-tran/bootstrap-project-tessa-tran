@@ -1,5 +1,5 @@
 body{
-    margin: 5px;
+    margin-left: 20px;
 }
 
 .header{  
@@ -9,9 +9,9 @@ body{
 
 
 h4{
-    color: rgb(75, 2, 71);
+    color: rgb(98, 5, 91);
     font-style: fantasy;
-    font-size: 10px;
+    font-size: 14px;
     font-weight: bold;
 }
 
@@ -55,34 +55,38 @@ navbar-container-fluid{
 
 .list-group-item{ 
     background-color:rgb(247, 229, 247);
+    line-height-step: .5em;
 }
 
-p{
-    line-height: 15px;
+.form-label{
+    line-height: 6px;
 }
 
 #from-name, #to-name{
-    line-height-step: .9em;
+    line-height: 10px;
+    font-size: 15px;  
 }
 
 .fa-circle-left, .fa-circle-right{
     color: rgb(118, 57, 101);
 }
 
+h3{
+    font-size: 22px;
+}
 
 
 @media (max-width: 576px) {
-    .options, .emails{
+    .emails{
         display: none;
-    }
-   
-   
+    }   
 }
 
-@media (min-width: 576px) {
-    .dropdown, .navbar {
-        display: none;
-    }
+@media (min-width: 992px) {
+    body{
+        overflow: hidden; 
+    } 
 }
+
    
 
